@@ -3,9 +3,9 @@ import { Pill, ShoppingCart, Package, Users } from 'lucide-react';
 import { InventoryController } from './controllers/InventoryController';
 import { SalesController } from './controllers/SalesController';
 import { CartController } from './controllers/CartController';
-import { InventoryView } from './views/InventoryView';
-import { CartView } from './views/CartView';
-import { SalesView } from './views/SalesView';
+import { InventoryView } from './views/InventoryView.jsx';
+import { CartView } from './views/CartView.jsx';
+import { SalesView } from './views/SalesView.jsx';
 
 function App() {
   const [activeTab, setActiveTab] = useState('inventory');
